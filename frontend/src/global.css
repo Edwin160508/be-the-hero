@@ -24,15 +24,21 @@ button{
     cursor: pointer;
 }
 
-form input{    
+form input, form textarea{    
     height: 60px;
     color: #333;
     border: 1px solid #dcdce6;    
     padding: 0 24px;
 }
-form input, .button{
+form input, form textarea, .button{
     border-radius: 8px;
     width: 100%;
+}
+form textarea{
+    min-height: 140px;
+    padding: 16px 24px;
+    line-height: 24px;
+    resize: vertical;
 }
 .button {    
     height: 60px;
